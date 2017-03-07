@@ -1,12 +1,17 @@
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class FizzAndBuzzTest {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
+	@Test   
+	public void testNotDevidibleByAnyOf(){     
+		Assert.assertEquals("1", FizzAndBuzz.dividibleBy(1));
+	    Assert.assertEquals("2", FizzAndBuzz.dividibleBy(2));
+	    
 	}
+
+	   
 
 }
