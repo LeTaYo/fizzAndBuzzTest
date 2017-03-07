@@ -21,4 +21,9 @@ public class FizzAndBuzzTest {
 		Assert.assertEquals("buzz", FizzAndBuzz.dividibleBy(5));
 	    Assert.assertEquals("buzz", FizzAndBuzz.dividibleBy(20));  
 	 }	  
+	@Test
+	public void testDevidibleBy3() {
+	    Assert.assertEquals("fizz", FizzAndBuzz.dividibleBy(3));
+	    Assert.assertEquals("fizz", FizzAndBuzz.dividibleBy(12)); 
+	}
 }
